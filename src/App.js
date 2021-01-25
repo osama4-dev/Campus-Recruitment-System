@@ -10,10 +10,10 @@ function App() {
   return (
 
     <div className="App">
+      
       <BrowserRouter>
       <Routing/>
       </BrowserRouter>
-    
       
       
       

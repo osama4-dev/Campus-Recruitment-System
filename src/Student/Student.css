@@ -1,21 +1,17 @@
-.fullWidthGrid {
+/* .fullWidthGrid {
     display: flex !important;
     justify-content: center !important;
     
-}
+} */
 .Student {
     max-width: 500px;
     margin: auto;
+    
 }
 
-.MuiButton-label{
-    padding: 15px 40px;
-    font-size: 15px;
-}
 
-.header1{
-    color: blue;
-}
+
+
 .student__form {
     display: flex;
     flex-direction: column;

@@ -3,22 +3,8 @@ import {  Switch, Route,Redirect } from "react-router-dom";
 import Student from '../Student/Student'
 import Company from '../Company/Company'
 import Login from '../Login/Login'
-
-// const routes = [
-//     {
-//       path: "/Student",
-//       component: Student
-//     },
-//     {
-//       path: "/Company",
-//       component: Company
-//     },
-//         {
-//           path: "/Login",
-//           component: Login
-//         },
-//       ];
-  
+import StudentDashboard from '../Student/Dashboard/StudentDashboard'
+import CompanyDashboard from '../Company/Dashboard/CompanyDashboard'
   
 
 
@@ -32,6 +18,12 @@ function Routing() {
       <Route path="/Company" component={Company}/>
         
       <Route path="/Login" component={Login}/>
+
+      <Route path="/StudentDashboard" component={StudentDashboard}/>
+
+      <Route path="/CompanyDashboard" component={CompanyDashboard}/>
+
+      
         
       <Redirect to="/Login"/>
 

@@ -1,3 +1,9 @@
-.header1{
-    color: blue;
+.Company{
+    max-width: 500px;
+    margin: auto;
+    
+}
+.company-form{
+    display: flex;
+    flex-direction: column;
 }

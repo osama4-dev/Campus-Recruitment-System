@@ -12,7 +12,7 @@ export default function ButtonG(props) {
     <div className="ButtonG">
       <div>
        
-        <Button variant="contained" size="medium" color="primary" onClick={props.onClick} >
+        <Button type={props.type} variant="contained" size="medium" color="primary" onClick={props.onClick} >
           {props.text}
         </Button>
         
